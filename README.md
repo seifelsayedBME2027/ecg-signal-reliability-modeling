@@ -19,7 +19,7 @@ This project aims to quantify signal reliability using a fused multi-signal trus
 
 ## Example Output
 
-![PTI Example](pti_dashboard.png)
+![PTI Dashboard](figures/images/pti_dashboard.png)
 
 ## Installation
 pip install -r requirements.txt
