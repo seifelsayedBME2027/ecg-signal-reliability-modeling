@@ -20,6 +20,11 @@ This project aims to quantify signal reliability using a fused multi-signal trus
 ## Example Output
 
 ![PTI Dashboard](figures/images/pti_dashboard.png)
+Comparison of clean and noisy ECG signals with detected R-peaks, corresponding RR intervals, and resulting Peak Trust Index (PTI).
+The top panel shows a clean ECG waveform with accurately detected R-peaks.
+The second panel illustrates the same signal under noisy conditions, where amplitude distortion and variability increase.
+The third panel compares RR interval stability between clean and noisy signals. The noisy signal exhibits significantly higher variability due to peak detection inconsistencies.
+The final panel displays the computed Peak Trust Index (PTI). The clean signal maintains a high PTI (0.932), while the noisy signal demonstrates a reduced PTI (0.789), indicating successful differentiation between reliable and degraded physiological data.
 
 ## Installation
 pip install -r requirements.txt
